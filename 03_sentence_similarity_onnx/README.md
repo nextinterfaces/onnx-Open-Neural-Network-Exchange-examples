@@ -40,6 +40,8 @@ graph TD
 
 - Python 3.7+
 - ONNX model file (`langcache-embed-v1-model.onnx`) in the parent directory
+  - You can download the model from [Hugging Face](https://huggingface.co/redis/langcache-embed-v1)
+  - Look for the ONNX file in the "Files and versions" tab
 - Required Python packages (install using `pip install -r requirements.txt`)
 
 ## Usage

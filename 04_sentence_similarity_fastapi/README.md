@@ -9,7 +9,11 @@ This example demonstrates how to use the ONNX sentence similarity model with Fas
 pip install -r requirements.txt
 ```
 
-2. Make sure the ONNX model file (`langcache-embed-v1-model.onnx`) is available in the parent directory.
+2. Download the ONNX model:
+   - Visit [redis/langcache-embed-v1](https://huggingface.co/redis/langcache-embed-v1) on Hugging Face
+   - Go to the "Files and versions" tab
+   - Download the `langcache-embed-v1-model.onnx` file
+   - Place it in the parent directory of this example
 
 ## Running the Application
 
