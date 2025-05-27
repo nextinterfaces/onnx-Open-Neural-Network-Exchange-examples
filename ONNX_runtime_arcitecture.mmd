@@ -1,0 +1,23 @@
+graph TD
+    A[Python API Layer] --> B[ONNX Runtime C/C++ Core]
+    B --> C[Execution Providers]
+    
+    subgraph "Native Layer"
+        B
+        C --> D[CPU - Default]
+        C --> E[CUDA - GPU]
+        C --> F[TensorRT]
+        C --> G[OpenVINO]
+        C --> H[DirectML]
+    end
+    
+    subgraph "Language Bindings"
+        A
+        I[C#/.NET API]
+        J[Java API]
+        K[C/C++ API]
+        
+        I --> B
+        J --> B
+        K --> B
+    end
