@@ -6,32 +6,32 @@ This repository contains examples demonstrating the usage of ONNX (Open Neural N
 
 ### Prerequisites
 - Python 3.8 or higher
-- pip (Python package installer)
+- uv (Python package installer)
 
 ### Virtual Environment Setup
 
 1. Create a virtual environment:
 ```bash
 # On macOS/Linux
-python3 -m venv venv
+uv venv
 
 # On Windows
-python -m venv venv
+uv venv
 ```
 
 2. Activate the virtual environment:
 ```bash
 # On macOS/Linux
-source venv/bin/activate
+source .venv/bin/activate
 
 # On Windows
-.\venv\Scripts\activate
+.\.venv\Scripts\activate
 ```
 
 3. Install dependencies for a specific example:
 ```bash
 cd example_directory  # e.g., cd 01_basic_neural_network
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ## Examples

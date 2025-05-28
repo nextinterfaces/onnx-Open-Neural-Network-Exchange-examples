@@ -42,19 +42,19 @@ graph TD
 - ONNX model file (`langcache-embed-v1-model.onnx`) in the parent directory
   - You can download the model from [Hugging Face](https://huggingface.co/redis/langcache-embed-v1)
   - Look for the ONNX file in the "Files and versions" tab
-- Required Python packages (install using `pip install -r requirements.txt`)
+- Required Python packages (install using `uv pip install -r requirements.txt`)
 
-## Usage
+## Setup
 
-1. Make sure you have the ONNX model file in the parent directory
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the script:
-   ```bash
-   python sentence_similarity_onnx.py
-   ```
+1. Install the required dependencies:
+```bash
+uv pip install -r requirements.txt
+```
+
+2. Run the example:
+```bash
+uv run sentence_similarity_onnx.py
+```
 
 ## What it does
 

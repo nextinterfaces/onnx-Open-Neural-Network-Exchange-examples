@@ -6,7 +6,7 @@ This example demonstrates how to use the ONNX sentence similarity model with Fas
 
 1. Install the required dependencies:
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 2. Download the ONNX model:
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 Start the FastAPI application:
 
 ```bash
-python app.py
+uv run app.py
 ```
 
 The server will start at `http://localhost:8000`.

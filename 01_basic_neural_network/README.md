@@ -14,13 +14,13 @@ The neural network consists of:
 ## Requirements
 Install the required packages:
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ## Running the Example
-Simply run:
+
 ```bash
-python simple_model.py
+uv run simple_model.py
 ```
 
 This will:
@@ -33,4 +33,4 @@ This will:
 The script will print:
 1. Confirmation that the ONNX model was created and verified
 2. The shape of the test input
-3. The shape and value of the model's output 
+3. The shape and value of the model's output

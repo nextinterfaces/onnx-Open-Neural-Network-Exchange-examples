@@ -26,11 +26,11 @@ graph TD
 
 1. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 2. Run the script:
    ```bash
-   python sentence_similarity.py
+   uv run sentence_similarity.py
    ```
 
 ## What it does
