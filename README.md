@@ -12,10 +12,6 @@ This repository contains examples demonstrating the usage of ONNX (Open Neural N
 
 1. Create a virtual environment:
 ```bash
-# On macOS/Linux
-uv venv
-
-# On Windows
 uv venv
 ```
 
