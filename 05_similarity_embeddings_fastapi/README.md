@@ -71,14 +71,6 @@ curl -X POST "http://localhost:8000/generate_embeddings/" \
 
 
 ```python
-# Request
-{
-    "sentences": [
-        "The quick brown fox jumps over the lazy dog",
-        "A fast auburn fox leaps above the sleepy hound"
-    ]
-}
-
 # Response
 {
     "embeddings": [[...], [...]],  # List of embedding vectors
@@ -105,14 +97,6 @@ curl -X POST "http://localhost:8000/compute_similarity/" \
 ```
 
 ```python
-# Request
-{
-    "sentences": [
-        "The quick brown fox jumps over the lazy dog",
-        "A fast auburn fox leaps above the sleepy hound"
-    ]
-}
-
 # Response
 {
     "similarities": [
